@@ -1,0 +1,48 @@
+#container img.parallax { 
+    /* The image used */
+    background-image: url("images/soldier.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    background-color: black;
+}
+h1.header {
+   color: red;
+}
+h2.header2 {
+   color: red;
+}
+p.tribute {
+    color: silver;
+}
+.links {
+    color: blue;
+}
+:hover {
+    color: purple;
+}
+.img {
+    height: 100%;
+}
+ul.li{
+    Padding: 5px;
+    Margin: 5px;
+    Font-size: 6em;
+    Font-family: 'Montserrat', sans-serif;
+    Color: red;
+    Background-color: silver;
+
+}
+// #container img.parallax {
+//     content:url("images/ludovic-gauthier-62746.jpg");
+//     height: 600px;
+//     width: 400px;
+// }

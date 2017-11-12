@@ -1,7 +1,6 @@
-#container img.parallax { 
+#container.parallax { 
     /* The image used */
-    background-image: url("images/soldier.jpg");
-
+    background-image: url("images/ludovic-gauthier-62746.jpg");
     /* Full height */
     height: 100%; 
 
@@ -16,9 +15,11 @@ body {
 }
 h1.header {
    color: red;
+   font-weight: 800;
 }
 h2.header2 {
    color: red;
+   font-weight: 200;
 }
 p.tribute {
     color: silver;
@@ -29,10 +30,15 @@ p.tribute {
 :hover {
     color: purple;
 }
-.img {
-    height: 100%;
+#container-fluid.1 {
+    background-image: url("images/soldier.jpg");
+    background-size: 200cm;
+    height: 100cm;
+    max-width: 100cm;
+    opacity: 0.5;
 }
-ul.li{
+ul.li {
+    Display: block;
     Padding: 5px;
     Margin: 5px;
     Font-size: 6em;
@@ -41,8 +47,7 @@ ul.li{
     Background-color: silver;
 
 }
-// #container img.parallax {
-//     content:url("images/ludovic-gauthier-62746.jpg");
+// #container {
+//     content:url("images/soldier.jpg");
 //     height: 600px;
-//     width: 400px;
 // }

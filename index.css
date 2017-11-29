@@ -13,15 +13,15 @@
 body {
     background-color: black;
 }
-h1.header {
+.header {
    color: red;
    font-weight: 800;
 }
-h2.header2 {
+.header2 {
    color: red;
    font-weight: 200;
 }
-p.tribute {
+.tribute {
     color: silver;
 }
 .links {
@@ -30,14 +30,14 @@ p.tribute {
 :hover {
     color: purple;
 }
-#container-fluid.1 {
+#container-fluid {
     background-image: url("images/soldier.jpg");
     background-size: 200cm;
     height: 100cm;
     max-width: 100cm;
     opacity: 0.5;
 }
-ul.li {
+.li {
     Display: block;
     Padding: 5px;
     Margin: 5px;
@@ -47,7 +47,3 @@ ul.li {
     Background-color: silver;
 
 }
-// #container {
-//     content:url("images/soldier.jpg");
-//     height: 600px;
-// }

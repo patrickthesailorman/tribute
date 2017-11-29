@@ -1,8 +1,8 @@
-#container.parallax { 
+.parallax { 
     /* The image used */
     background-image: url("images/ludovic-gauthier-62746.jpg");
     /* Full height */
-    height: 100%; 
+    min-height: 70vw; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -31,10 +31,10 @@ body {
     color: purple;
 }
 #container-fluid {
-    background-image: url("images/soldier.jpg");
-    background-size: 200cm;
-    height: 100cm;
-    max-width: 100cm;
+    background-image: url("images/thomas-tucker-179792.jpg");
+    background-size: 200px;
+    height: 100px;
+    max-width: 100px;
     opacity: 0.5;
 }
 .li {
@@ -46,4 +46,8 @@ body {
     Color: red;
     Background-color: silver;
 
+}
+#img1 {
+    max-width: 500px;
+    height: 500px;
 }
